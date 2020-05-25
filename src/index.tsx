@@ -1,15 +1,8 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import { Dumb } from './modules/dumb';
+import Navigator from './navigations';
 
-const App: React.FC = () => (
-  <View>
-    <Text>
-      Test
-    </Text>
-    <Dumb></Dumb>
-  </View>
-);
+const App: React.FC = () => <Navigator />;
 
 export default App;
